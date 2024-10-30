@@ -1,4 +1,4 @@
-class ErrorHandler {
+export class ErrorHandler {
   constructor(input, div, name, errorFlag = false, message) {
     this.input = input ? input.value : console.error("input cannot be empty");
     this.div = div ? div : console.error("div cannot be empty");
